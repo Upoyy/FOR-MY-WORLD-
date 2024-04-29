@@ -1,0 +1,206 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: 0%;
+  list-style: none;
+  text-decoration: none;
+  font-family: "coolvetica", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: rgb(252, 156, 255);
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.nav_container .tags {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.bgutama-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.bgutama-container .bgutama_teks h1 {
+  font-size: 120px;
+}
+
+.bgutama-container .bgutama_teks p {
+  font-size: 48px;
+}
+
+.second-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: auto;
+}
+.second-container .second-text h1 {
+  font-size: 64px;
+}
+
+.second-container .second-text p {
+  font-size: 64px;
+}
+
+.second-container .second-ucapan h1 {
+  font-size: 64px;
+}
+
+.second-container .second-ucapan p {
+  font-size: 64px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.third-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+
+.third-container .third-text {
+  order: 2;
+}
+
+.third-container .third-img {
+  order: 1;
+  display: flex;
+  size: 80px;
+}
+
+.third-container .third-text h1 {
+  font-size: 64px;
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 80px;
+}
+
+.third-container .third-text p {
+  font-size: 64px;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.third-container .third-text h2 {
+  font-size: 64px;
+  padding-right: 80px;
+  text-align: right;
+}
+
+.fourth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.fourth-container .fourth-text h1 {
+  font-size: 64px;
+  padding-left: 80px;
+}
+
+.fourth-container .fourth-text p {
+  font-size: 64px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+}
+
+.fourth-container .fourth-img {
+  display: flex;
+}
+
+.fifth-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: auto;
+}
+
+.fifth-container .fifth-text h1 {
+  font-size: 64px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+.fifth-container .fifth-text p {
+  font-size: 64px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.sixth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 591px;
+  height: 156px;
+  margin: 0 auto;
+}
+.sixth-container .syg {
+  background-color: rgba(253, 177, 255, 1);
+  border-radius: 40px;
+}
+
+.sixth-container .syg .syg-teks a {
+  font-size: 48px;
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+  line-height: 100px;
+}
+  
+.seven-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1475;
+  padding-top: 50px;
+}
+
+.eight-container .eight-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+}
+
+.eight-container .eight-text h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 84px;
+}
+
+.eight-container .eight-text p{
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    font-size: 80px;
+}
